@@ -1,0 +1,2 @@
+javac wordsearch/WordSearch.java
+java wordsearch.WordSearch input.txt
