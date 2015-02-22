@@ -13,5 +13,5 @@ mark = [path for word in map ((lambda word: word.strip().upper()), word_s.split(
              for rc in grid.keys()
              for path in search(grid, rc, word, [])]
 
-print "\n".join([" ".join([ch if (row,col) in mark else '.' for col,ch in enumerate(line)])
-        for row,line in enumerate(grid_s.split("\n"))])
+print("\n".join([" ".join([ch if (row,col) in mark else '.' for col,ch in enumerate(line)])
+        for row,line in enumerate(grid_s.split("\n"))]))
